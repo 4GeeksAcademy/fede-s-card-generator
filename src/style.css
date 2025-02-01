@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  background-color: white;
+  height: 400px;
+  width: 250px;
+  border: solid 1px black;
+  margin: auto;
+}
+
+.bottomPalo {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.topPalo {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.number {
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 20%;
+  height: 45%;
+}
