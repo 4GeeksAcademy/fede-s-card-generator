@@ -6,10 +6,11 @@ body {
 
 .card {
   background-color: white;
-  height: 400px;
-  width: 250px;
+  height: 50vh;
+  width: 30vh;
   border: solid 1px black;
   margin: auto;
+  font-size: 10vh;
 }
 
 .bottomPalo {
@@ -20,18 +21,26 @@ body {
 
 .topPalo {
   display: flex;
-  justify-content: start;
-  align-items: start;
 }
 
 .number {
-  font-size: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-img {
-  width: 20%;
-  height: 45%;
+.spade {
+  color: black;
+}
+
+.club {
+  color: black;
+}
+
+.heart {
+  color: red;
+}
+
+.diamond {
+  color: red;
 }
