@@ -17,10 +17,12 @@ body {
   display: flex;
   justify-content: end;
   align-items: end;
+  margin-bottom: -1.5rem;
 }
 
 .topPalo {
   display: flex;
+  margin-top: -2rem;
 }
 
 .number {
